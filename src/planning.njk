@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: DSN 2027 Planning
+description: DSN 2027 planning names and areas under discussion.
+permalink: /planning/
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <p class="section-kicker">Planning Snapshot</p>
+  <h1 id="page-title">People and areas under discussion</h1>
+  <p>These names are included as planning context, not as final public appointments.</p>
+</section>
+
+<section class="section planning" aria-label="Planning details">
+  <div class="planning-layout">
+    <section class="potential-list" aria-labelledby="potential-title">
+      <h2 id="potential-title">Potentially included</h2>
+      <ul>
+        {% for person in conference.potentialContributors %}
+          <li>{{ person }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <div class="idea-list">
+      {% for idea in conference.planningIdeas %}
+        <article class="idea-item">
+          <h2>{{ idea.area }}</h2>
+          <ul>
+            {% for person in idea.people %}
+              <li>{{ person }}</li>
+            {% endfor %}
+          </ul>
+          {% if idea.note %}
+            <p>{{ idea.note }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

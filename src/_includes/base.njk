@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description or conference.subtitle + ' in ' + conference.location }}">
+    <title>{{ title or conference.title }}</title>
+    <link rel="preload" href="/assets/berlin-brandenburg-gate.jpg" as="image">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <aside class="site-sidebar" aria-label="Conference navigation">
+      <a class="brand" href="/" aria-label="{{ conference.title }} home">
+        <span class="brand-mark">DSN</span>
+        <span>
+          <span class="brand-title">{{ conference.title }}</span>
+          <span class="brand-subtitle">{{ conference.location }}</span>
+        </span>
+      </a>
+      <div class="sidebar-summary">
+        <strong>{{ conference.subtitle }}</strong>
+        <span>{{ conference.location }}</span>
+        <span>{{ conference.dates }}</span>
+      </div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
+        <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
+        <a href="/team/" {% if page.url == "/team/" %}aria-current="page"{% endif %}>Team</a>
+        <a href="/planning/" {% if page.url == "/planning/" %}aria-current="page"{% endif %}>Planning</a>
+        <a href="/updates/" {% if page.url == "/updates/" %}aria-current="page"{% endif %}>Updates</a>
+      </nav>
+    </aside>
+    <div class="page-shell">
+      <main id="main">
+        {{ content | safe }}
+      </main>
+      <footer class="site-footer">
+        <p>{{ conference.title }} · {{ conference.location }} · {{ conference.dates }}</p>
+        <p>
+          Photo:
+          <a href="https://commons.wikimedia.org/wiki/File:Berlin-Brandenburg_Gate_overview.jpg">Berlin-Brandenburg Gate overview</a>
+          by Cezary p at Polish Wikipedia, available under CC BY-SA 3.0 or compatible licenses.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
