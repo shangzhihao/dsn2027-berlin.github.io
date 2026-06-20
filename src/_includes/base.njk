@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ description or conference.subtitle + ' in ' + conference.location }}">
     <title>{{ title or conference.title }}</title>
-    <link rel="icon" href="/assets/logo.png" type="image/png">
+    <link rel="icon" href="/assets/favicon.png" type="image/png" sizes="512x512">
+    <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <link rel="preload" href="/assets/berlin-brandenburg-gate.jpg" as="image">
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
@@ -26,10 +28,12 @@
       </div>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
-        <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
-        <a href="/team/" {% if page.url == "/team/" %}aria-current="page"{% endif %}>Team</a>
-        <a href="/planning/" {% if page.url == "/planning/" %}aria-current="page"{% endif %}>Planning</a>
-        <a href="/updates/" {% if page.url == "/updates/" %}aria-current="page"{% endif %}>Updates</a>
+        <a href="/call-for-contributions/" {% if page.url == "/call-for-contributions/" %}aria-current="page"{% endif %}>Call for Contributions</a>
+        <a href="/workshops/" {% if page.url == "/workshops/" %}aria-current="page"{% endif %}>Workshops</a>
+        <a href="/committees/" {% if page.url == "/committees/" %}aria-current="page"{% endif %}>Committees</a>
+        <a href="/conference-program/" {% if page.url == "/conference-program/" %}aria-current="page"{% endif %}>Conference Program</a>
+        <a href="/sponsors/" {% if page.url == "/sponsors/" %}aria-current="page"{% endif %}>Sponsors</a>
+        <a href="/previous-conferences/" {% if page.url == "/previous-conferences/" %}aria-current="page"{% endif %}>Previous DSN Conferences</a>
       </nav>
     </aside>
     <div class="page-shell">

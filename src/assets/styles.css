@@ -369,7 +369,6 @@ h2 {
   padding-top: 1.5rem;
 }
 
-.role-group h2,
 .potential-list h3,
 .potential-list h2,
 .idea-item h2 {
@@ -396,11 +395,13 @@ h2 {
   box-shadow: 0 10px 26px rgba(24, 33, 47, 0.06);
 }
 
+.role-item h2,
 .role-item h3,
 .role-item p {
   margin: 0;
 }
 
+.role-item h2,
 .role-item h3 {
   margin-bottom: 0.35rem;
   font-size: 1.05rem;
@@ -458,6 +459,51 @@ h2 {
 
 .idea-item p {
   margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
+.placeholder-section {
+  padding-top: 0;
+}
+
+.placeholder-section p {
+  margin: 0;
+  padding: 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.conference-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.conference-list li {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.95rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.conference-list li:last-child {
+  border-bottom: 0;
+}
+
+.conference-list a {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.conference-list span {
   color: var(--muted);
 }
 
@@ -519,6 +565,7 @@ h2 {
 
   .status-grid,
   .role-list,
+  .conference-list li,
   .section-cards {
     grid-template-columns: 1fr;
   }
