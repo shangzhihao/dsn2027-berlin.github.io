@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Previous DSN Conferences
+description: Archive of previous DSN conference websites and locations.
+permalink: /previous-conferences/
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <p class="section-kicker">Archive</p>
+  <h1 id="page-title">Previous DSN Conferences</h1>
+  <p>Earlier editions of the IEEE/IFIP International Conference on Dependable Systems and Networks.</p>
+</section>
+
+<section class="section content-section" aria-label="Previous DSN conference list">
+  <ul class="conference-list">
+    {% for item in conference.previousConferences %}
+      <li>
+        <a href="{{ item.url }}">DSN {{ item.year }}</a>
+        <span>{{ item.location }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

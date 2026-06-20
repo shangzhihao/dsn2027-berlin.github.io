@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: DSN 2027 Committees
+description: Current DSN 2027 committee planning information.
+permalink: /committees/
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <p class="section-kicker">Committees</p>
+  <h1 id="page-title">Organizing roles</h1>
+  <p>Roles listed here reflect the current planning note and will be updated as appointments are confirmed.</p>
+</section>
+
+<section class="section" aria-label="Organizing role list">
+  <div class="role-list">
+    {% for item in conference.roles %}
+      <article class="role-item">
+        <div>
+          <h2>{{ item.role }}</h2>
+          {% if item.people.length %}
+            <p>{{ item.people | join(", ") }}</p>
+          {% else %}
+            <p>To be announced</p>
+          {% endif %}
+        </div>
+        <span class="pill">{{ item.status }}</span>
+      </article>
+    {% endfor %}
+  </div>
+</section>
