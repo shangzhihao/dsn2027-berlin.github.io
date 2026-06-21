@@ -23,6 +23,8 @@ The generated site is written to `_site/`.
 
 Public-facing site data lives in `src/_data/conference.js`.
 
+For maintenance instructions, see `MAINTAINING.md`.
+
 ## Deployment
 
 The included GitHub Actions workflow builds the site and deploys `_site/` to
