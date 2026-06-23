@@ -11,6 +11,8 @@ permalink: /workshops/
   <p>Information about DSN 2027 workshops will be announced here.</p>
 </section>
 
-<section class="section placeholder-section" aria-label="Placeholder content">
-  <p>To be announced.</p>
-</section>
+<div class="section content-section">
+
+To be announced.
+
+</div>
