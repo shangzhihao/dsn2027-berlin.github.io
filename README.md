@@ -11,6 +11,12 @@ pnpm install
 pnpm run start
 ```
 
+Or use the convenience script:
+
+```sh
+./start.sh
+```
+
 Build the production output with:
 
 ```sh

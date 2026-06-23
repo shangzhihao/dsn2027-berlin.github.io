@@ -41,15 +41,18 @@ manual edits there will be lost.
 Each top-level page has one source file:
 
 - Home: `src/index.njk`, URL `/`
-- Call for Contributions: `src/call-for-contributions.njk`,
+- Call for Contributions: `src/call-for-contributions.md`,
   URL `/call-for-contributions/`
-- Workshops: `src/workshops.njk`, URL `/workshops/`
+- Workshops: `src/workshops.md`, URL `/workshops/`
 - Committees: `src/committees.njk`, URL `/committees/`
-- Conference Program: `src/conference-program.njk`,
+- Conference Program: `src/conference-program.md`,
   URL `/conference-program/`
-- Sponsors: `src/sponsors.njk`, URL `/sponsors/`
+- Sponsors: `src/sponsors.md`, URL `/sponsors/`
 - Previous DSN Conferences: `src/previous-conferences.njk`,
   URL `/previous-conferences/`
+
+Pages with mostly prose content use Markdown (`.md`). Pages driven by
+Nunjucks loops over data (committees, previous conferences) use `.njk`.
 
 ## Shared Layout
 
