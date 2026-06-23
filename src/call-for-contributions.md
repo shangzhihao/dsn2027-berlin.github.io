@@ -104,8 +104,8 @@ Submissions that do not conform to the above submission deadline, anonymization,
 
 Submissions must adhere to the IEEE Computer Society 8.5″×11″ two-column camera-ready format (using a 10-point font on 12-point single-spaced leading) as implemented by the LaTeX/Word templates available at the [IEEE conference template](https://www.ieee.org/conferences/publishing/templates) page (last updated in 2024):
 
-- LaTeX Package ([ZIP](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip))
-- Word Template ([DOC](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-letter.docx))
+- LaTeX Package ([ZIP](https://ieee-org.widen.net/content/ssylclqqfn/original/conference-latex-template.zip))
+- Word Template ([DOCX](https://ieee-org.widen.net/content/ge5anzdecd/original/conference-template-a4.docx))
 
 Each paper must be submitted as a single Portable Document Format (PDF) file. All fonts must be embedded in the file. We also strongly recommend you print the file and review it for integrity (fonts, symbols, equations, etc.) before submitting it. A defective printing of your paper can undermine its chance of acceptance. Please take a note of the following:
 
