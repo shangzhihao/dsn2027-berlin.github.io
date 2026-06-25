@@ -1,0 +1,29 @@
+---
+layout: base.njk
+pagination:
+  data: navigation.placeholderPages
+  size: 1
+  alias: placeholder
+permalink: "{{ placeholder.url }}"
+eleventyComputed:
+  title: "{{ placeholder.title }}"
+  description: "DSN 2027 {{ placeholder.title }} placeholder."
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  <p class="section-kicker">{{ placeholder.section }}</p>
+  <h1 id="page-title">{{ placeholder.title }}</h1>
+  <p>{{ placeholder.summary or "Information about DSN 2027 " + placeholder.title + " will be announced here." }}</p>
+</section>
+
+<div class="section content-section placeholder-section">
+  {% if placeholder.people and placeholder.people.length %}
+    <ul class="committee-people">
+      {% for person in placeholder.people %}
+        <li>{{ person }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>To be announced.</p>
+  {% endif %}
+</div>

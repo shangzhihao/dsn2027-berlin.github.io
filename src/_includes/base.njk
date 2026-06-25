@@ -10,42 +10,53 @@
     <link rel="preload" href="/assets/berlin-brandenburg-gate.jpg" as="image">
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
-  <body>
+  <body class="site-body">
     <a class="skip-link" href="#main">Skip to content</a>
-    <aside class="site-sidebar" aria-label="Conference navigation">
+    <aside class="site-sidebar" id="site-sidebar" aria-label="Conference navigation">
+      <a class="mobile-close" href="#main" aria-label="Close menu">×</a>
       <a class="brand" href="/" aria-label="{{ conference.title }} home">
         <img class="brand-logo" src="/assets/logo.png" alt="" width="120" height="101">
-        <span>
-          <span class="brand-title">{{ conference.title }}</span>
-          <span class="brand-subtitle">{{ conference.location }}</span>
-        </span>
       </a>
       <div class="sidebar-summary">
-        <strong>{{ conference.subtitle }}</strong>
-        <span>{{ conference.location }}</span>
+        <strong>{{ conference.location }}</strong>
         <span>{{ conference.dates }}</span>
       </div>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
-        <a href="/call-for-contributions/" {% if page.url == "/call-for-contributions/" %}aria-current="page"{% endif %}>Call for Contributions</a>
-        <a href="/workshops/" {% if page.url == "/workshops/" %}aria-current="page"{% endif %}>Workshops</a>
-        <a href="/committees/" {% if page.url == "/committees/" %}aria-current="page"{% endif %}>Committees</a>
-        <a href="/conference-program/" {% if page.url == "/conference-program/" %}aria-current="page"{% endif %}>Conference Program</a>
-        <a href="/sponsors/" {% if page.url == "/sponsors/" %}aria-current="page"{% endif %}>Sponsors</a>
-        <a href="/previous-conferences/" {% if page.url == "/previous-conferences/" %}aria-current="page"{% endif %}>Previous DSN Conferences</a>
+        {% for item in navigation.items %}
+          {% if item.children %}
+            <details class="nav-group" {% if page.url == item.url or (item.activePrefix and page.url.startsWith(item.activePrefix)) or (item.activeUrls and item.activeUrls.includes(page.url)) %}open{% endif %}>
+              <summary>{{ item.title }}</summary>
+              <div class="nav-children">
+                {% for child in item.children %}
+                  <a href="{{ child.url }}" {% if page.url == child.url %}aria-current="page"{% endif %}>{{ child.title }}</a>
+                {% endfor %}
+              </div>
+            </details>
+          {% else %}
+            <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endif %}
+        {% endfor %}
       </nav>
     </aside>
     <div class="page-shell">
+      <header class="mobile-header">
+        <a class="menu-button" href="#site-sidebar" aria-label="Open menu">☰</a>
+        <a href="/" aria-label="{{ conference.title }} home">
+          <img src="/assets/logo.png" alt="" width="65" height="51">
+        </a>
+      </header>
       <main id="main">
         {{ content | safe }}
       </main>
       <footer class="site-footer">
         <p>{{ conference.title }} · {{ conference.location }} · {{ conference.dates }}</p>
-        <p>
-          Photo:
-          <a href="https://commons.wikimedia.org/wiki/File:Berlin-Brandenburg_Gate_overview.jpg">Berlin-Brandenburg Gate overview</a>
-          by Cezary p at Polish Wikipedia, available under CC BY-SA 3.0 or compatible licenses.
-        </p>
+        {% if page.url == "/" %}
+          <p>
+            Photo:
+            <a href="https://commons.wikimedia.org/wiki/File:Berlin-Brandenburg_Gate_overview.jpg">Berlin-Brandenburg Gate overview</a>
+            by Cezary p at Polish Wikipedia, available under CC BY-SA 3.0 or compatible licenses.
+          </p>
+        {% endif %}
       </footer>
     </div>
   </body>

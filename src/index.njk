@@ -1,100 +1,61 @@
 ---
 layout: base.njk
 title: DSN 2027 Berlin
-description: Initial DSN 2027 Berlin conference website and team planning snapshot.
+description: DSN 2027 Berlin homepage.
 ---
 
-<section class="hero" aria-labelledby="page-title">
-  <div class="hero-media" aria-hidden="true"></div>
-  <div class="hero-content">
-    <p class="eyebrow">IEEE International Conference</p>
-    <h1 id="page-title">{{ conference.title }} Berlin</h1>
-    <p class="hero-lede">{{ conference.subtitle }}</p>
-    <div class="hero-meta" aria-label="Conference details">
-      <span>{{ conference.location }}</span>
-      <span>{{ conference.dates }}</span>
-    </div>
+<header class="home-header" aria-labelledby="page-title">
+  <h1 id="page-title">{{ conference.title }}</h1>
+  <h2>{{ conference.subtitle }}</h2>
+  <p>{{ conference.location }}, {{ conference.dates }}</p>
+</header>
+
+<section class="home-photo-section" aria-label="Berlin">
+  <div class="photo-card">
+    <img src="/assets/berlin-brandenburg-gate.jpg" alt="Berlin Brandenburg Gate">
   </div>
+  <div class="section-divider"></div>
 </section>
 
-<section class="section intro">
-  <div>
-    <p class="section-kicker">Welcome</p>
-    <h2>Dependable systems and networks, hosted in Berlin.</h2>
-  </div>
-  <div class="intro-copy">
+<div class="home-columns">
+  <section class="welcome-column" aria-labelledby="welcome-title">
+    <h3 id="welcome-title">Welcome</h3>
     <p>
-      DSN is the annual IEEE conference for research and practice in dependable systems and networks.
-      The 2027 edition will take place in Berlin, Germany, from June 22–25, 2027.
+      IEEE International Conference on Dependable Systems and Networks (DSN), with its roots dating back to
+      the 1970's, is the leading annual event in which academic and industry leaders exchange research
+      ideas and tools, and discuss emerging practices. Modern societies rely upon properly performing
+      technical systems and infrastructures. The conference is the most prestigious international forum to
+      present advances in knowledge and practices of building and maintaining robust, resilient, safe and
+      secure systems and networks.
     </p>
     <p>
-      More details about venue, registration, and program will be added as they become available.
+      Please join us in Berlin, Germany, in June 2027, for the 57th edition of DSN.
     </p>
-  </div>
-</section>
 
-<section class="section content-section" aria-labelledby="conference-title">
-  <h2 id="conference-title">Conference</h2>
-  <p>
-    {{ conference.subtitle }} will bring together researchers, practitioners, and students working on
-    dependable, resilient, safe, and secure systems and networks.
-  </p>
-  <p>
-    Venue details, registration, and program information will be added as they
-    become available. See the <a href="/call-for-contributions/">Call for Contributions</a> for submission details.
-  </p>
-</section>
+    <h3>IEEE Computer Society Open Conference Statement</h3>
+    <p>
+      Expanding participation in computing is central to the goals of the IEEE Computer Society and all of
+      its conferences. The IEEE Computer Society is firmly committed to broad participation in all sponsored
+      activities, including but not limited to, technical communities, steering committees, conference
+      organizations, standards committees, and ad hoc committees that welcome the entire global community.
+    </p>
+    <p>
+      IEEE's mission to foster technological innovation and excellence to benefit humanity requires the
+      talents and perspectives of people with many disciplinary backgrounds.
+    </p>
+    <p>
+      All individuals are entitled to participate in any IEEE Computer Society activity free of
+      discrimination and harassment.
+    </p>
+  </section>
 
-<section class="section status-band" aria-labelledby="status-title">
-  <div>
-    <p class="section-kicker">Current Status</p>
-    <h2 id="status-title">Initial website placeholder</h2>
-  </div>
-  <div class="status-grid">
-    <div>
-      <span class="status-label">Location</span>
-      <strong>{{ conference.location }}</strong>
-    </div>
-    <div>
-      <span class="status-label">Dates</span>
-      <strong>{{ conference.dates }}</strong>
-    </div>
-    <div>
-      <span class="status-label">Source</span>
-      <strong>Team planning note</strong>
-    </div>
-  </div>
-</section>
+  <aside class="news-column" aria-labelledby="latest-news-title">
+    <h3 id="latest-news-title">Latest News</h3>
+    <div class="news-panel" aria-label="Latest news"></div>
+  </aside>
+</div>
 
-<section class="section" aria-labelledby="overview-title">
-  <div class="section-heading">
-    <h2 id="overview-title">More information</h2>
-  </div>
-
-  <div class="section-cards">
-    <a class="section-card" href="/call-for-contributions/">
-      <span>Calls</span>
-      <strong>Call for Contributions</strong>
-    </a>
-    <a class="section-card" href="/workshops/">
-      <span>Workshops</span>
-      <strong>Workshop information</strong>
-    </a>
-    <a class="section-card" href="/committees/">
-      <span>Committees</span>
-      <strong>Organizing roles</strong>
-    </a>
-    <a class="section-card" href="/conference-program/">
-      <span>Program</span>
-      <strong>Conference Program</strong>
-    </a>
-    <a class="section-card" href="/sponsors/">
-      <span>Sponsors</span>
-      <strong>Sponsor information</strong>
-    </a>
-    <a class="section-card" href="/previous-conferences/">
-      <span>Archive</span>
-      <strong>Previous DSN Conferences</strong>
-    </a>
-  </div>
+<section class="sponsors-band" aria-labelledby="sponsors-title">
+  <h2 id="sponsors-title">Sponsors</h2>
+  <div class="sponsors-panel" aria-label="Sponsors"></div>
 </section>
