@@ -1,19 +1,12 @@
 ---
-layout: base.njk
+layout: content-page.njk
 title: Call for Contributions
+pageTitle: Research Track Call for Contributions
+kicker: Calls
+intro: Society is increasingly dependent on the dependability and security of all types of computing systems. These systems include the CPUs/GPUs/DPUs/TPUs, mobile/edge devices, clouds, networks, personal computers, large-scale systems, and cyber-physical systems that provide services we use in our everyday lives. Accidents, disasters, failures, incorrect operation, or intentional compromise of these systems and networks can have dire implications on our well-being, our privacy, our society at large, and our planet.
 description: DSN 2027 Research Track Call for Contributions — paper submission guidelines, important dates, and review process.
 permalink: /call-for-contributions/
 ---
-
-<section class="section page-title" aria-labelledby="page-title">
-  <p class="section-kicker">Calls</p>
-  <h1 id="page-title">Research Track Call for Contributions</h1>
-  <p>
-    Society is increasingly dependent on the dependability and security of all types of computing systems. These systems include the CPUs/GPUs/DPUs/TPUs, mobile/edge devices, clouds, networks, personal computers, large-scale systems, and cyber-physical systems that provide services we use in our everyday lives. Accidents, disasters, failures, incorrect operation, or intentional compromise of these systems and networks can have dire implications on our well-being, our privacy, our society at large, and our planet.
-  </p>
-</section>
-
-<div class="section content-section">
 
 ### Overview
 
@@ -205,5 +198,3 @@ Rüdiger Kapitza, FAU Erlangen-Nürnberg
 ### Contact
 
 For further information please send an email to [research_track@dsn.org](mailto:research_track@dsn.org).
-
-</div>

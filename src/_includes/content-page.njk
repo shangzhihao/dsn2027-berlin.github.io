@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+<section class="section page-title" aria-labelledby="page-title">
+  {% if kicker %}
+    <p class="section-kicker">{{ kicker }}</p>
+  {% endif %}
+  <h1 id="page-title">{{ pageTitle or title }}</h1>
+  {% if intro %}
+    <p>{{ intro }}</p>
+  {% endif %}
+</section>
+
+<div class="section content-section">
+  {{ content | safe }}
+</div>
