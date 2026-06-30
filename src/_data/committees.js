@@ -40,12 +40,46 @@ export const roles = [
   { role: "Industry Track Chairs", people: [] },
   { role: "Artifact Chairs", people: [] },
   { role: "Disrupt 2027", people: [] },
-  { role: "Workshop Chairs", people: [] },
+  {
+    role: "Workshop Chairs",
+    people: [
+      {
+        name: "Sara Bouchenak",
+        url: "https://perso.liris.cnrs.fr/sara.bouchenak/",
+        institution: "INSA Lyon",
+        country: "France",
+        photo: "/assets/committees/sara-bouchenak.jpg",
+      },
+      {
+        name: "Paolo Rech",
+        institution: "University of Trento",
+        country: "Italy",
+        photo: "/assets/committees/paolo-rech.jpg",
+      },
+    ],
+  },
   { role: "Poster Chairs", people: [] },
   { role: "Doctoral Forum Chairs", people: [] },
   { role: "Tutorial Chairs", people: [] },
   { role: "Mentoring Program Chairs", people: [] },
-  { role: "Publication Chairs", people: [] },
+  {
+    role: "Publication Chairs",
+    people: [
+      {
+        name: "Roberto Natella",
+        url: "https://rnatella.github.io/",
+        institution: "Gran Sasso Science Institute (GSSI)",
+        country: "Italy",
+        photo: "/assets/committees/roberto-natella.jpg",
+      },
+      {
+        name: "Lishan Yang",
+        institution: "George Mason University",
+        country: "USA",
+        photo: "/assets/committees/lishan-yang.jpg",
+      },
+    ],
+  },
   { role: "Publicity Chairs", people: [] },
   { role: "Social Media Chair", people: [] },
   {
