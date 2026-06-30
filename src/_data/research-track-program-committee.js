@@ -13,7 +13,7 @@ export default [
   {
     "name": "Adwait Nadkarni",
     "affiliation": "William & Mary",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Alysson Bessani",
@@ -23,7 +23,7 @@ export default [
   {
     "name": "Amy Babay",
     "affiliation": "University of Pittsburgh",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Andrea Bondavalli",
@@ -43,12 +43,12 @@ export default [
   {
     "name": "Angelos Keromytis",
     "affiliation": "Georgia Institute of Technology",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Angelos Stavrou",
     "affiliation": "Virginia Tech",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Anil Kurmus",
@@ -58,7 +58,7 @@ export default [
   {
     "name": "Animesh Chhotaray",
     "affiliation": "Georgia Tech",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Annette Bieniusa",
@@ -83,7 +83,7 @@ export default [
   {
     "name": "Bo Fang",
     "affiliation": "University of Texas at Arlington",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Chia-Mu Yu",
@@ -138,7 +138,7 @@ export default [
   {
     "name": "Domenico Cotroneo",
     "affiliation": "University of North Carolina at Charlotte",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Edlira Dushku",
@@ -168,7 +168,7 @@ export default [
   {
     "name": "Evgenia Smirni",
     "affiliation": "William & Mary",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Fernando Pedone",
@@ -208,12 +208,12 @@ export default [
   {
     "name": "Guanpeng Li",
     "affiliation": "University of Florida",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Haining Wang",
     "affiliation": "Virginia Tech",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Haipeng Dai",
@@ -238,7 +238,7 @@ export default [
   {
     "name": "Haoran Qiu",
     "affiliation": "Microsoft Azure Research",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Hélène Waeselynck",
@@ -263,7 +263,7 @@ export default [
   {
     "name": "Hui Lin",
     "affiliation": "University of Rhode Island",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Hui Xu",
@@ -313,7 +313,7 @@ export default [
   {
     "name": "Keun Soo YIM",
     "affiliation": "Google",
-    "country": "United States"
+    "country": "USA"
   },
   {
     "name": "Kizito Salako",
@@ -328,7 +328,7 @@ export default [
   {
     "name": "Lishan Yang",
     "affiliation": "George Mason University",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Long Wang",
@@ -338,7 +338,7 @@ export default [
   {
     "name": "Luis Garcia",
     "affiliation": "University of Utah",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Marcello Cinque",
@@ -348,7 +348,7 @@ export default [
   {
     "name": "Marco Vieira",
     "affiliation": "University of North Carolina at Charlotte",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Marcus Völp",
@@ -373,12 +373,12 @@ export default [
   {
     "name": "Matti Hiltunen",
     "affiliation": "AT&T",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Meera Sridhar",
     "affiliation": "University of North Carolina at Charlotte",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Michael Lyu",
@@ -388,7 +388,7 @@ export default [
   {
     "name": "Michel Cukier",
     "affiliation": "University of Maryland",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Miguel Correia",
@@ -403,7 +403,7 @@ export default [
   {
     "name": "Minesh Patel",
     "affiliation": "Rutgers University",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Mohamed Kaâniche",
@@ -413,7 +413,7 @@ export default [
   {
     "name": "Mohammad Ashiqur Rahman",
     "affiliation": "Florida International University",
-    "country": "United States"
+    "country": "USA"
   },
   {
     "name": "Naghmeh Ivaki",
@@ -438,7 +438,7 @@ export default [
   {
     "name": "Peng Liu",
     "affiliation": "Pennsylvania State University",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Pengfei Hu",
@@ -503,12 +503,12 @@ export default [
   {
     "name": "Saman Zonouz",
     "affiliation": "Georgia Tech",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Sameh Elnikety",
     "affiliation": "Microsoft Research",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Sara Bouchenak",
@@ -523,17 +523,17 @@ export default [
   {
     "name": "Saurabh Bagchi",
     "affiliation": "Purdue University, KeyByte",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Saurabh Jha",
     "affiliation": "IBM",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Shuai Hao",
     "affiliation": "Old Dominion University",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Sihang Liu",
@@ -593,7 +593,7 @@ export default [
   {
     "name": "Vilas Sridharan",
     "affiliation": "AMD, Inc.",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Vladimir Stankovic",
@@ -623,7 +623,7 @@ export default [
   {
     "name": "Xinda Wang",
     "affiliation": "University of Texas at Dallas",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Xuhua Ding",
@@ -643,7 +643,7 @@ export default [
   {
     "name": "Zbigniew Kalbarczyk",
     "affiliation": "University of Illinois at Urbana-Champaign",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Zhenliang Lu",
@@ -653,7 +653,7 @@ export default [
   {
     "name": "Zhongshu Gu",
     "affiliation": "IBM Research",
-    "country": "United States of America"
+    "country": "USA"
   },
   {
     "name": "Zhuangbin Chen",
@@ -663,6 +663,6 @@ export default [
   {
     "name": "Zitao Chen",
     "affiliation": "University of Kansas",
-    "country": "United States of America"
+    "country": "USA"
   }
 ];
