@@ -38,7 +38,25 @@ export const roles = [
     ],
   },
   { role: "Industry Track Chairs", people: [] },
-  { role: "Artifact Chairs", people: [] },
+  {
+    role: "Artifact Chairs",
+    people: [
+      {
+        name: "Andrea Ceccarelli",
+        url: "https://cercachi.unifi.it/p-doc2-2017-B032-A-3f2b342f372e2b-0.html",
+        institution: "University of Florence",
+        country: "Italy",
+        photo: "/assets/committees/andrea-ceccarelli.jpg",
+      },
+      {
+        name: "Zitao Chen",
+        url: "https://zitaoc.github.io/",
+        institution: "University of Kansas",
+        country: "USA",
+        photo: "/assets/committees/zitao-chen.jpg",
+      },
+    ],
+  },
   { role: "Disrupt 2027", people: [] },
   {
     role: "Workshop Chairs",
@@ -60,8 +78,44 @@ export const roles = [
   },
   { role: "Poster Chairs", people: [] },
   { role: "Doctoral Forum Chairs", people: [] },
-  { role: "Tutorial Chairs", people: [] },
-  { role: "Mentoring Program Chairs", people: [] },
+  {
+    role: "Tutorial Chairs",
+    people: [
+      {
+        name: "Marcus Völp",
+        url: "https://www.uni.lu/snt-en/people/marcus-volp/",
+        institution: "University of Luxembourg",
+        country: "Luxembourg",
+        photo: "/assets/committees/marcus-volp.jpg",
+      },
+      {
+        name: "Fumio Machida",
+        url: "https://www.sd.cs.tsukuba.ac.jp/en/machida.html",
+        institution: "University of Tsukuba",
+        country: "Japan",
+        photo: "/assets/committees/fumio-machida.jpg",
+      },
+    ],
+  },
+  {
+    role: "Mentoring Program Chairs",
+    people: [
+      {
+        name: "Long Wang",
+        url: "https://longwang1.github.io/",
+        institution: "Tsinghua University",
+        country: "China",
+        photo: "/assets/committees/long-wang.jpg",
+      },
+      {
+        name: "Felicita Di Giandomenico",
+        url: "https://www.isti.cnr.it/en/about/people-detail/99/Felicita_Di_Giandomenico",
+        institution: "CNR-ISTI",
+        country: "Italy",
+        photo: "/assets/committees/felicita-di-giandomenico.jpg",
+      },
+    ],
+  },
   {
     role: "Publication Chairs",
     people: [
