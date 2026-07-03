@@ -65,6 +65,7 @@ export const roles = [
         url: "https://www.ri.se/en/person/behrooz-sangchoolie",
         institution: "RISE Research Institutes of Sweden",
         country: "Sweden",
+        photo: "/assets/committees/behrooz-sangchoolie.png",
       },
       {
         name: "Fuqun Huang",
