@@ -57,7 +57,25 @@ export const roles = [
       },
     ],
   },
-  { role: "Disrupt 2027", people: [] },
+  {
+    role: "Disrupt 2027",
+    people: [
+      {
+        name: "Behrooz Sangchoolie",
+        url: "https://www.ri.se/en/person/behrooz-sangchoolie",
+        institution: "RISE Research Institutes of Sweden",
+        country: "Sweden",
+        photo: "/assets/committees/behrooz-sangchoolie.png",
+      },
+      {
+        name: "Fuqun Huang",
+        url: "https://cs.wwu.edu/huangf2",
+        institution: "Western Washington University",
+        country: "USA",
+        photo: "/assets/committees/fuqun-huang.png",
+      },
+    ],
+  },
   {
     role: "Workshop Chairs",
     people: [
@@ -76,7 +94,25 @@ export const roles = [
       },
     ],
   },
-  { role: "Poster Chairs", people: [] },
+  {
+    role: "Poster Chairs",
+    people: [
+      {
+        name: "Guanpeng Li",
+        url: "https://cclinus.github.io/",
+        institution: "University of Florida",
+        country: "USA",
+        photo: "/assets/committees/guanpeng-li.png",
+      },
+      {
+        name: "João R. Campos",
+        url: "https://www.joaorcampos.com/",
+        institution: "University of Coimbra",
+        country: "Portugal",
+        photo: "/assets/committees/joao-r-campos.png",
+      },
+    ],
+  },
   { role: "Doctoral Forum Chairs", people: [] },
   {
     role: "Tutorial Chairs",
@@ -147,6 +183,7 @@ export const roles = [
         name: "Zhihao Shang",
         institution: "SSE - Secure Systems Engineering GmbH",
         country: "Germany",
+        photo: "/assets/committees/zhihao-shang.png",
       },
     ],
   },
