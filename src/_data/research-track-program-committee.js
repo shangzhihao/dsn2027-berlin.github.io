@@ -1,4 +1,5 @@
-// Source: HotCRP.xlsx. Keep this file UTF-8; several names and affiliations contain accents.
+// Initially imported from HotCRP.xlsx. Keep this file UTF-8; several names and
+// affiliations contain accents.
 export default [
   {
     "name": "Abdullah Giray Yaglikci",
@@ -146,6 +147,11 @@ export default [
     "country": "Denmark"
   },
   {
+    "name": "Elad Michael Schiller",
+    "affiliation": "Chalmers University of Technology",
+    "country": "Sweden"
+  },
+  {
     "name": "Elena Troubitsyna",
     "affiliation": "KTH -- Royal Institute of Technology",
     "country": "Sweden"
@@ -154,6 +160,11 @@ export default [
     "name": "Elias Duarte",
     "affiliation": "Federal University of Parana",
     "country": "Brazil"
+  },
+  {
+    "name": "Enrico Vicario",
+    "affiliation": "University of Florence",
+    "country": "Italy"
   },
   {
     "name": "Etienne Rivière",
@@ -169,6 +180,11 @@ export default [
     "name": "Evgenia Smirni",
     "affiliation": "William & Mary",
     "country": "USA"
+  },
+  {
+    "name": "Fernando Fernandes dos Santos",
+    "affiliation": "IRISA/Inria",
+    "country": "France"
   },
   {
     "name": "Fernando Pedone",
@@ -276,6 +292,11 @@ export default [
     "country": "United Kingdom"
   },
   {
+    "name": "Imtiaz Karim",
+    "affiliation": "University of Texas at Dallas",
+    "country": "USA"
+  },
+  {
     "name": "Ittai Abraham",
     "affiliation": "a16z Crypto Research",
     "country": "Israel"
@@ -306,6 +327,11 @@ export default [
     "country": "France"
   },
   {
+    "name": "Karl M. GOESCHKA",
+    "affiliation": "UAS Technikum Wien",
+    "country": "Austria"
+  },
+  {
     "name": "Karthik Pattabiraman",
     "affiliation": "University of British Columbia",
     "country": "Canada"
@@ -321,8 +347,18 @@ export default [
     "country": "United Kingdom"
   },
   {
+    "name": "Kuan-Hsun Chen",
+    "affiliation": "Paderborn University",
+    "country": "Germany"
+  },
+  {
     "name": "Leander Jehl",
     "affiliation": "University of Stavanger",
+    "country": "Norway"
+  },
+  {
+    "name": "Leonardo Montecchi",
+    "affiliation": "NTNU",
     "country": "Norway"
   },
   {
@@ -406,6 +442,11 @@ export default [
     "country": "USA"
   },
   {
+    "name": "Minzhao Lyu",
+    "affiliation": "University of New South Wales",
+    "country": "Australia"
+  },
+  {
     "name": "Mohamed Kaâniche",
     "affiliation": "LAAS-CNRS",
     "country": "France"
@@ -449,6 +490,11 @@ export default [
     "name": "Peter Ulbrich",
     "affiliation": "TU Dortmund University",
     "country": "Germany"
+  },
+  {
+    "name": "Phuong Cao",
+    "affiliation": "National Center for Supercomputing Applications, University of Illinois Urbana-Champaign",
+    "country": "USA"
   },
   {
     "name": "Pierre-Louis Aublin",
@@ -631,9 +677,19 @@ export default [
     "country": "Singapore"
   },
   {
+    "name": "Yazhou Tu",
+    "affiliation": "Auburn University",
+    "country": "USA"
+  },
+  {
     "name": "Yennun Huang",
     "affiliation": "Academia Sinica, Taiwan",
     "country": "Taiwan"
+  },
+  {
+    "name": "Yuchen Zhang",
+    "affiliation": "Beijing Normal–Hong Kong Baptist University",
+    "country": "China"
   },
   {
     "name": "Yvonne-Anne Pignolet",
