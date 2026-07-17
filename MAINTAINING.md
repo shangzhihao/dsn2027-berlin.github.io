@@ -89,10 +89,10 @@ Use this file for content that appears in a loop or may be reused, such as:
 
 The Organizing Committee page renders `conference.roles` in order. Keep that
 order aligned with the DSN 2027 planning document. The Research Track Program
-Committee page renders `conference.researchTrackProgramCommittee`, generated
-from `HotCRP.xlsx`; keep the data file UTF-8 because it contains accented
-names and affiliations. The Steering Committee page renders
-`conference.steeringCommitteeChairs`,
+Committee page renders `conference.researchTrackProgramCommittee`, initially
+generated from `HotCRP.xlsx` and maintained in its data file; keep that file
+UTF-8 because it contains accented names and affiliations. The Steering
+Committee page renders `conference.steeringCommitteeChairs`,
 `conference.steeringCommittee`, and `conference.steeringCommitteeCharter`.
 
 ## Assets
