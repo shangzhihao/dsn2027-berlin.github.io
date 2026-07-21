@@ -55,6 +55,12 @@ export const roles = [
         country: "USA",
         photo: "/assets/committees/zitao-chen.jpg",
       },
+      {
+        name: "Vincent Ulitzsch",
+        url: "https://www.csail.mit.edu/person/vincent-ulitzsch",
+        institution: "Massachusetts Institute of Technology (MIT)",
+        country: "USA",
+      },
     ],
   },
   {
@@ -113,7 +119,25 @@ export const roles = [
       },
     ],
   },
-  { role: "Doctoral Forum Chairs", people: [] },
+  {
+    role: "Doctoral Forum Chairs",
+    people: [
+      {
+        name: "Elena Troubitsyna",
+        url: "https://www.kth.se/profile/elenatro",
+        institution: "KTH Royal Institute of Technology",
+        country: "Sweden",
+        photo: "/assets/committees/elena-troubitsyna.jpg",
+      },
+      {
+        name: "Roberto Pietrantuono",
+        url: "https://www.docenti.unina.it/roberto.pietrantuono",
+        institution: "University of Naples Federico II",
+        country: "Italy",
+        photo: "/assets/committees/roberto-pietrantuono.jpg",
+      },
+    ],
+  },
   {
     role: "Tutorial Chairs",
     people: [
@@ -170,8 +194,37 @@ export const roles = [
       },
     ],
   },
-  { role: "Publicity Chairs", people: [] },
-  { role: "Social Media Chair", people: [] },
+  {
+    role: "Publicity and Social Media Chairs",
+    people: [
+      {
+        name: "Carmine Cesarano",
+        url: "https://www.kth.se/profile/cesarano",
+        institution: "KTH Royal Institute of Technology",
+        country: "Sweden",
+        photo: "/assets/committees/carmine-cesarano.jpg",
+      },
+      {
+        name: "Fengwei Zhang",
+        url: "https://www.sustech.edu.cn/en/faculties/zhangfengwei.html",
+        institution: "Southern University of Science and Technology",
+        country: "China",
+        photo: "/assets/committees/fengwei-zhang.jpg",
+      },
+      {
+        name: "Naghmeh Ivaki",
+        url: "https://eden.dei.uc.pt/~naghmeh/",
+        institution: "University of Coimbra",
+        country: "Portugal",
+        photo: "/assets/committees/naghmeh-ivaki.jpg",
+      },
+      {
+        name: "Rodrigo Nogueira",
+        institution: "University of North Carolina at Charlotte",
+        country: "USA",
+      },
+    ],
+  },
   {
     role: "Finance and Student Travel Grant Chairs",
     people: [],
