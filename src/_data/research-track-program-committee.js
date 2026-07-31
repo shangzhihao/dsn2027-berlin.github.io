@@ -502,6 +502,11 @@ export default [
     "country": "Japan"
   },
   {
+    "name": "Pradip Bose",
+    "affiliation": "IBM T. J. Watson Research Center",
+    "country": "USA"
+  },
+  {
     "name": "Pritam Dash",
     "affiliation": "Huawei Canada",
     "country": "Canada"
