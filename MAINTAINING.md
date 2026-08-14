@@ -44,6 +44,8 @@ Each top-level page has one source file:
 - Call for Contributions: `src/call-for-contributions.md`,
   URL `/call-for-contributions/`
 - Workshops: `src/workshops.md`, URL `/workshops/`
+- Venue: `src/venue.md`, URL `/attend/venue/`
+- Accommodation: `src/accommodation.md`, URL `/attend/accommodation/`
 - Organizing Committee: `src/committees.njk`, URL `/committees/`
 - Research Track Program Committee:
   `src/research-track-program-committee.njk`,
@@ -109,6 +111,7 @@ Current important assets:
 - `favicon.png`: 512 by 512 favicon
 - `apple-touch-icon.png`: Apple touch icon
 - `berlin-brandenburg-gate.jpg`: homepage hero image
+- `tagungswerk-hall.webp`: venue page image
 - `styles.css`: site styles
 
 Editable design sources live outside `src/` so they are versioned but not
