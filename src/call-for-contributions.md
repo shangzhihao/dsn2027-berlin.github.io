@@ -66,7 +66,7 @@ The number of pages indicated above includes everything: title page, text, figur
 
 Independently of the paper category, we expect all papers to provide enough detail to enable the reproducibility of their experimental results and encourage authors, whenever possible, to make both the artifacts and datasets related to the paper publicly available.
 
-### Artifacts
+<h3 id="artifact-evaluation">Artifacts</h3>
 
 DSN supports open science, where authors of accepted papers are encouraged to make their code and datasets publicly available to ensure reproducibility and replicability by other researchers. Therefore, DSN 2027 offers a separate artifact evaluation track that is open to all accepted papers from all three categories of the research track. The goals of the artifact track are to (1) increase confidence in a paper's claims and results, and (2) facilitate future research via publicly available datasets and tools.
 
@@ -119,7 +119,7 @@ The program committee will perform a double-blind review of all submissions, wit
 
 Submissions violating the formatting and anonymization rules will be rejected without review. There will be no extensions for reformatting.
 
-### Awards
+<h3 id="awards">Awards</h3>
 
 DSN gives three Best Paper Awards and one of them, based on the quality of the oral presentation, will also receive a Distinguished Best Paper Award. All of them will be presented in a special Best Paper Session at the conference.
 

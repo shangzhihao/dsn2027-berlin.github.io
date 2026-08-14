@@ -368,6 +368,16 @@ a {
   text-align: left;
 }
 
+.information-notice {
+  max-width: 900px;
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--indigo);
+  border-radius: 4px;
+}
+
 .committee-section {
   padding-top: 12px;
 }
@@ -512,6 +522,65 @@ a {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.attraction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.attraction-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.attraction-photo {
+  margin: -1.25rem -1.25rem 1rem;
+  background: var(--paper);
+}
+
+.attraction-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.attraction-photo figcaption {
+  padding: 0.45rem 0.75rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
+.content-section .attraction-photo a {
+  font-weight: 600;
+}
+
+.content-section .attraction-card h3 {
+  margin: 0 0 0.75rem;
+  color: var(--indigo);
+}
+
+.attraction-card p {
+  margin: 0 0 1rem;
+}
+
+.attraction-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: auto;
+}
+
+.attraction-card .attraction-links {
+  margin-bottom: 0;
 }
 
 .conference-list {

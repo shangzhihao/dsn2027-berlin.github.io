@@ -46,6 +46,21 @@ Each top-level page has one source file:
 - Workshops: `src/workshops.md`, URL `/workshops/`
 - Venue: `src/venue.md`, URL `/attend/venue/`
 - Accommodation: `src/accommodation.md`, URL `/attend/accommodation/`
+- Local Attractions: `src/local-attractions.md`,
+  URL `/attend/local-attractions/`
+- Visas and Invitation: `src/visas-and-invitation.md`,
+  URL `/attend/visas-and-invitation/`
+- Mentoring: `src/mentoring.md`, URL `/mentoring/`
+- Awards Information: `src/awards.md`, URL `/awards/`
+- Carter Award: `src/carter-award.md`, URL `/awards/carter-award/`
+- Rising Star Award: `src/rising-star-award.md`,
+  URL `/awards/rising-star-award/`
+- Test of Time Award: `src/test-of-time-award.md`,
+  URL `/awards/test-of-time-award/`
+- Distinguished Artifact Award: `src/distinguished-artifact-award.md`,
+  URL `/awards/distinguished-artifact-award/`
+- Jean-Claude Laprie Award: `src/jean-claude-laprie-award.md`,
+  URL `/awards/jean-claude-laprie-award/`
 - Organizing Committee: `src/committees.njk`, URL `/committees/`
 - Research Track Program Committee:
   `src/research-track-program-committee.njk`,
@@ -112,6 +127,8 @@ Current important assets:
 - `apple-touch-icon.png`: Apple touch icon
 - `berlin-brandenburg-gate.jpg`: homepage hero image
 - `tagungswerk-hall.webp`: venue page image
+- `attractions/`: optimized attraction thumbnails with source and license
+  credits on the Local Attractions page
 - `styles.css`: site styles
 
 Editable design sources live outside `src/` so they are versioned but not
