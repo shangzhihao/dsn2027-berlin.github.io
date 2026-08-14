@@ -235,7 +235,7 @@ export const roles = [
       {
         name: "Zhihao Shang",
         institution: "SSE - Secure Systems Engineering GmbH",
-        country: "Germany",
+        country: "China",
         photo: "/assets/committees/zhihao-shang.png",
       },
     ],
@@ -362,6 +362,7 @@ export const steeringCommittee = [
 ];
 
 export const steeringCommitteeCharter = {
-  title: "Charter for the Steering Committee of IEEE/IFIP International Conference on Dependable Systems and Networks",
+  title:
+    "Charter for the Steering Committee of IEEE/IFIP International Conference on Dependable Systems and Networks",
   url: "/assets/docs/dsn-steering-committee-charter.pdf",
 };
