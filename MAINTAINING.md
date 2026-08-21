@@ -180,27 +180,3 @@ Check the generated route list when adding or removing pages:
 ```sh
 find _site -maxdepth 3 -type f | sort
 ```
-
-## Git Workflow
-
-Typical workflow:
-
-1. Edit files locally.
-2. Run validation.
-3. Commit focused changes.
-4. Push to the fork.
-5. Open a pull request into `dsn2027-berlin/dsn2027-berlin.github.io`.
-
-Do not commit generated `_site/`, `node_modules/`, or local design source files
-unless they are intentionally part of the public website source.
-
-## Notes for AI Agents
-
-- Re-read files from disk before editing.
-- Keep changes scoped to the requested site behavior.
-- Preserve existing content unless the user asks to remove or rewrite it.
-- Do not edit or rely on `_site/` as source.
-- Keep editable design sources under `design/`, not `src/assets/`, unless they
-  should be publicly served by the website.
-- After page structure changes, verify that deleted routes are absent from
-  `_site/`.
