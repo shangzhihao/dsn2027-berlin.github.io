@@ -37,7 +37,31 @@ export const roles = [
       },
     ],
   },
-  { role: "Industry Track Chairs", people: [] },
+  {
+    role: "Industry Track Chairs",
+    people: [
+      {
+        name: "Saurabh Bagchi",
+        email: "sbagchi@purdue.edu",
+        institution: "Purdue University",
+        country: "USA",
+        photo: "/assets/committees/saurabh-bagchi.jpg",
+      },
+      {
+        name: "Rajarshi Chowdhury",
+        email: "rajarshi.chowdhury@oracle.com",
+        institution: "Oracle",
+        country: "USA",
+      },
+      {
+        name: "Marco Platania",
+        email: "mp366j@att.com",
+        institution: "AT&T",
+        country: "USA",
+        photo: "/assets/committees/marco-platania.jpg",
+      },
+    ],
+  },
   {
     role: "Artifact Chairs",
     people: [
